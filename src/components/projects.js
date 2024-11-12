@@ -1,4 +1,4 @@
-const Projects = () => {
+function Projects() {
   return (
     <div className="p-8">
       <h1 className="text-3xl font-bold">My Projects</h1>
@@ -7,6 +7,6 @@ const Projects = () => {
       </p>
     </div>
   );
-};
+}
 
 export default Projects;
