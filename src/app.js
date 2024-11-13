@@ -27,7 +27,7 @@ function App() {
               </a>
             </li>
             <li>
-              <a href="/contact" className="hover:text-gray-200">
+              <a href="/contacts" className="hover:text-gray-200">
                 Contact
               </a>
             </li>

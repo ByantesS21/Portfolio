@@ -1,10 +1,11 @@
 function Home() {
   return (
-    <div className="p-8">
-      <h1 className="text-4xl font-bold">Welcome to My Portfolio</h1>
-      <p className="mt-4 text-xl">
-        This is the home page of my portfolio built with React and Tailwind CSS.
+    <div className="p-8 text-center">
+      <h1 className="text-5xl font-bold">Hello, I'm [Your Name]</h1>
+      <p className="mt-4 text-2xl">
+        A passionate [Your Role, e.g., "Web Developer"]
       </p>
+      <p className="mt-2 text-lg">Welcome to my portfolio!</p>
     </div>
   );
 }
