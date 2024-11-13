@@ -8,16 +8,16 @@ function Contact() {
       <p className="mt-4">
         Email:{" "}
         <a
-          href="mailto:your-email@example.com"
+          href="mailto:byantessavage@gmail.com"
           className="text-blue-500 underline"
         >
-          your-email@example.com
+          byantessavage@gmail.com
         </a>
       </p>
       <p>
         LinkedIn:{" "}
         <a
-          href="https://linkedin.com/in/your-profile"
+          href="https://linkedin.com/in/byantesTsar21"
           target="_blank"
           rel="noopener noreferrer"
           className="text-blue-500 underline"

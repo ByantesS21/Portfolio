@@ -3,12 +3,12 @@ function About() {
     <div className="p-8">
       <h1 className="text-4xl font-bold mb-4">About Me</h1>
       <p className="text-lg">
-        I’m a [Your Role/Position] with a background in [Your Field or Major,
-        e.g., "Computer Science"]. I have a passion for creating beautiful,
-        functional, and accessible web applications.
+        I’m a Software Engineer with a background in Computer Science . I have a
+        passion for creating beautiful, functional, and accessible web
+        applications.
       </p>
       <p className="mt-4">
-        Skills: JavaScript, React, Tailwind CSS, [Add more skills]
+        Skills: JavaScript, React, Tailwind CSS, Solidity, Blockchain
       </p>
     </div>
   );
