@@ -5,6 +5,8 @@ import About from "./components/about";
 import Projects from "./components/projects";
 import Contact from "./components/contacts";
 import "./App.css";
+import "@fortawesome/fontawesome-free/css/all.min.css";
+import Footer from "./components/footer";
 
 function App() {
   return (
@@ -41,6 +43,7 @@ function App() {
           <Route path="/projects" element={<Projects />} />
           <Route path="/contacts" element={<Contact />} />
         </Routes>
+        <Footer />
       </div>
     </Router>
   );

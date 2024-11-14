@@ -1,20 +1,22 @@
+// About.js
 function About() {
   return (
-    <div id="about" className="p-8 max-w-2xl mx-auto">
-      <h1 className="text-4xl font-bold text-gray-800 mb-4">About Me</h1>
-      <p className="text-lg text-gray-700">
-        I’m a Softare Engineer with a background in Full Stack development. My
-        passion lies in creating interactive and accessible web applications
-        using modern frameworks like React.
-      </p>
-      <div className="mt-4">
-        <h2 className="text-2xl font-semibold text-gray-800">Skills</h2>
-        <ul className="list-disc ml-6 mt-2 text-gray-700">
-          <li>JavaScript</li>
-          <li>React</li>
-          <li>Tailwind CSS</li>
-          <li>C++</li>
-        </ul>
+    <div
+      id="about"
+      className="p-8 bg-gray-100 text-gray-800 min-h-screen flex items-center"
+    >
+      <div className="max-w-2xl mx-auto text-center sm:text-left">
+        <h2 className="text-4xl font-bold text-blue-700 mb-4">About Me</h2>
+        <p className="text-lg leading-relaxed">
+          Hello! I’m Byantes Galus, a passionate web developer with experience
+          in creating dynamic, responsive websites and applications. I have a
+          background in Computer Science and a love for building projects that
+          are both visually appealing and user-friendly.
+        </p>
+        <p className="mt-4 text-lg leading-relaxed">
+          I specialize in React, JavaScript, CSS, and I am always excited to
+          learn new tools and improve my skills.
+        </p>
       </div>
     </div>
   );
