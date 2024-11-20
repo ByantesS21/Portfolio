@@ -10,7 +10,7 @@ import Footer from "./components/footer";
 
 function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <div className="min-h-screen bg-gray-100">
         <nav className="bg-blue-600 text-white p-4">
           <ul className="flex space-x-4">
