@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom"; // Import Link for navigation
 
 function Home() {
   const [show, setShow] = useState(false);
@@ -22,18 +23,19 @@ function Home() {
         below.
       </p>
       <div className="mt-8 flex space-x-4">
-        <a
-          href="./about"
+        {/* Use Link instead of a for navigation */}
+        <Link
+          to="/about"
           className="px-4 py-2 bg-white text-blue-700 font-semibold rounded shadow-md hover:bg-gray-200 transition"
         >
           About Me
-        </a>
-        <a
-          href="./projects"
+        </Link>
+        <Link
+          to="/projects"
           className="px-4 py-2 bg-white text-blue-700 font-semibold rounded shadow-md hover:bg-gray-200 transition"
         >
           Projects
-        </a>
+        </Link>
       </div>
     </div>
   );

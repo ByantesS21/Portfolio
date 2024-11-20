@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
 import Home from "./components/home";
 import About from "./components/about";
 import Projects from "./components/projects";
@@ -12,37 +12,42 @@ function App() {
   return (
     <Router basename={process.env.PUBLIC_URL}>
       <div className="min-h-screen bg-gray-100">
+        {/* Navigation Bar */}
         <nav className="bg-blue-600 text-white p-4">
           <ul className="flex space-x-4">
+            {/* Replace <a> with <Link> for SPA navigation */}
             <li>
-              <a href="/" className="hover:text-gray-200">
+              <Link to="/" className="hover:text-gray-200">
                 Home
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/about" className="hover:text-gray-200">
+              <Link to="/about" className="hover:text-gray-200">
                 About
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/projects" className="hover:text-gray-200">
+              <Link to="/projects" className="hover:text-gray-200">
                 Projects
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/contacts" className="hover:text-gray-200">
+              <Link to="/contacts" className="hover:text-gray-200">
                 Contact
-              </a>
+              </Link>
             </li>
           </ul>
         </nav>
 
+        {/* Routes */}
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/contacts" element={<Contact />} />
         </Routes>
+
+        {/* Footer */}
         <Footer />
       </div>
     </Router>
